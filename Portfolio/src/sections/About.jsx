@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/globe";
-import { Frameworks } from "../components/FrameWorks";
+import { Frameworks } from "../components/Frameworks";
 import { Mail, Instagram, Linkedin } from "lucide-react";
 
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
               BlackBytes is a tech revolution. We empower developers through hands-on learning and cutting-edge project development in Web Development, AI/ML, IoT, and Python. We also offer top-tier tech services including software and web development.
             </p>
           </div>
-          <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
+          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
         {/* Grid 2 */}
         <div className="grid-default-color grid-2">
@@ -94,7 +94,7 @@ const About = () => {
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
-            <p className="headText">Tech Stack</p>
+            <p className="headtext">Tech Stack</p>
             <p className="subtext">
               We specialize in a wide range of technologies — from frontend frameworks to AI tools — enabling us to deliver modern, scalable, and reliable digital solutions.
             </p>
