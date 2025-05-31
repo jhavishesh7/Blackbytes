@@ -58,9 +58,11 @@ body {
 html, body {
   overflow-x: hidden !important;
 }
+/*
 * {
   outline: 1px solid red !important;
 }
+*/
 
 .c-space {
   @apply sm:px-10 px-5 lg:px-15;
