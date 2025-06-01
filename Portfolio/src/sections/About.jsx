@@ -85,7 +85,7 @@ const About = () => {
               {/* <a href="https://linkedin.com/company/blackbytes" target="_blank" className="flex items-center gap-2 hover:underline">
                 <Linkedin size={20} /> LinkedIn
               </a> */}
-              <a href="blackbytenp@gmail.com" className="flex items-center gap-2 hover:underline">
+              <a href="mailto:blackbytenp@gmail.com" className="flex items-center gap-2 hover:underline">
                 <Mail size={20} /> Email
               </a>
             </div>
