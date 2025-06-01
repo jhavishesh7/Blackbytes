@@ -79,13 +79,13 @@ const About = () => {
               Want to collaborate or learn with us?
             </p>
             <div className="flex gap-6 text-black font-bold">
-              <a href="https://instagram.com/blackbytes" target="_blank" className="flex items-center gap-2 hover:underline">
+              <a href="https://www.instagram.com/blackbytes_np/?e=eea30dd2-3bac-46ac-93c7-c2188631aa76&g=5" target="_blank" className="flex items-center gap-2 hover:underline">
                 <Instagram size={20} /> Instagram
               </a>
-              <a href="https://linkedin.com/company/blackbytes" target="_blank" className="flex items-center gap-2 hover:underline">
+              {/* <a href="https://linkedin.com/company/blackbytes" target="_blank" className="flex items-center gap-2 hover:underline">
                 <Linkedin size={20} /> LinkedIn
-              </a>
-              <a href="mailto:contact@blackbytes.tech" className="flex items-center gap-2 hover:underline">
+              </a> */}
+              <a href="blackbytenp@gmail.com" className="flex items-center gap-2 hover:underline">
                 <Mail size={20} /> Email
               </a>
             </div>
